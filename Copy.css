@@ -1,0 +1,81 @@
+.container{
+  margin: auto;
+  width: 800px;
+  display: grid;
+  grid-template-columns: 400px 400px;
+  grid-auto-rows: auto;
+  grid-template-areas:
+  "ruta1 ruta2"
+  "ruta3 ruta4"
+  "ruta5 ruta6"
+}
+.stor-container{
+  margin: auto;
+  width: 400px;
+  display: grid;
+  grid-template-columns: 400px;
+  grid-auto-rows: auto;
+  grid-template-areas:
+  "stor"
+}
+.ruta1{
+  background-color: pink;
+  height: 450px;
+  grid-area: ruta1;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.ruta2{
+  background-color: pink;
+  height: 450px;
+  grid-area: ruta2;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.ruta3{
+  background-color: pink;
+  height: 450px;
+  grid-area: ruta3;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.ruta4{
+  background-color: pink;
+  height: 450px;
+  grid-area: ruta4;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.ruta5{
+  background-color: pink;
+  height: 450px;
+  grid-area: ruta5;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.ruta6{
+  background-color: pink;
+  height: 450px;
+  grid-area: ruta6;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.stor{
+  height: 1000;
+  width: auto;
+  background-color: pink;
+  margin-right: 15px;
+  grid-area: stor;
+}

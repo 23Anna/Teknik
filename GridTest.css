@@ -1,0 +1,41 @@
+
+
+header{
+  grid-area: header;
+  background-color: green;
+  height: 200px;
+}
+main{
+  grid-area: main;
+  background-color: pink;
+  height: 200px;
+}
+aside{
+  grid-area: aside;
+  background-color: blue;
+  height: 200px;
+}
+footer{
+  grid-area: footer;
+  background-color: brown;
+  height: 200px;
+}
+.container{
+  margin: auto;
+  width: 800px;
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px;
+  grid-template-rows: auto;
+  grid-template-areas:
+  "header header header header"
+  "main main . aside"
+  "footer footer footer footer"
+}
+@media screen and (max-width: 800px){
+  .container{
+    grid-template-areas:
+  "header header header header"
+  "main main main main"
+  "aside aside aside aside"
+  "footer footer footer footer";
+}
